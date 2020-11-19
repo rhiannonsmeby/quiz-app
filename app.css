@@ -1,8 +1,50 @@
-/* Your styles should be mobile-first and responsive */
+header {
+  max-width: 600px;
+  margin: auto;
+  margin-top: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
-/** 
-  * If you are unclear on how to utilize a mobile-first, responsive technique to write your CSS, here is an example: 
-  *
-  * https://github.com/andreacardybailey/responsive_example/blob/master/styles/responsive-base.css 
-  *
-*/
+div {
+  display: flex;
+  flex-direction: column;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 550px;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 10px solid #e29578;
+  background-color: #edf6f9;
+}
+
+img {
+  max-width: 400px;
+  margin-left: 40px;  
+}
+
+.question-out-of {
+  text-align: right;
+  border-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  background-color: #83C5BE;
+  border-radius: 50%;
+  border-style: none;
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  margin: 20px;
+}
+
+button:hover {
+  background-color: #006d77;
+}
+
+body {
+  background-color: #ffddd2;
+}
